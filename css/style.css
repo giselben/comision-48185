@@ -116,7 +116,7 @@ section div img{
 /*--------FOOTER--------*/
 footer{
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
     background-color:rgba(211, 211, 211, 0.678) ;
     padding: 30px;
@@ -125,6 +125,11 @@ footer{
 footer img{
     width:50px;
     height: 50px;
+}
+.redes {
+    display: grid;
+    grid-template-columns:repeat(3,1fr) ;
+    grid-template-rows: ;
 }
 
 
